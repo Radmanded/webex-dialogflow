@@ -12,16 +12,30 @@ https://developers.google.com/codelabs/chatbots-dialogflow-appointment-scheduler
 
 https://github.com/GoogleCloudPlatform/dialogflow-integrations#readme
 
+### Google Calendar Integration
+
+https://www.youtube.com/watch?v=4_MvIf_ULgc
+
+https://codelabs.developers.google.com/codelabs/chatbots-dialogflow-fulfillment#2
+
 ### Install Google Cloud CLI
 
 https://cloud.google.com/sdk/docs/install-sdk
 
 * Click **Guide me**
->[Google Cloud Shell 
+>[Google Cloud Shell](
 
 ## Webex and Dialogflow
 
 https://help.webex.com/en-us/article/m2az0i/Cisco-Webex-Hybrid-Calendar-Service-with-Google-Calendar-integration-reference
+
+## Build an Agent
+
+https://cloud.google.com/dialogflow/es/docs/quick/build-agent
+
+You need to copy the JSON and google calendar ID to later add to the Fulfillment. 
+>**WARNING**: Must Open accounts with Google. While they are free it is something to consider for the future. At this time they are offering a $300 credit, so I am using it with the credit. Also, you will need to interact with the gCloud CLI. It is easier to depoy with with Google's system.
+>Go over documentation and trying to break this in sequence.
 
 ## Google Runner Set up
 

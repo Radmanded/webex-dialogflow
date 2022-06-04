@@ -33,6 +33,32 @@ https://help.webex.com/en-us/article/m2az0i/Cisco-Webex-Hybrid-Calendar-Service-
 
 https://cloud.google.com/dialogflow/es/docs/quick/build-agent
 
+### Add Along with JSON in Fulfillment Inline Editor
+
+{
+  "name": "dialogflowFirebaseFulfillment",
+  "description": "Dialogflow fulfillment for the bike shop sample",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Google Inc.",
+  "engines": {
+    "node": "6"
+  },
+  "scripts": {
+    "lint": "semistandard --fix \"**/*.js\"",
+    "start": "firebase deploy --only functions",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "firebase-functions": "2.0.2",
+    "firebase-admin": "^5.13.1",
+    "actions-on-google": "2.2.0", 
+    "googleapis": "^27.0.0",
+    "dialogflow-fulfillment": "0.5.0"
+  }
+}
+
 You need to copy the JSON and google calendar ID to later add to the Fulfillment. 
 >**WARNING**: Must Open accounts with Google. While they are free it is something to consider for the future. At this time they are offering a $300 credit, so I am using it with the credit. Also, you will need to interact with the gCloud CLI. It is easier to depoy with with Google's system.
 >Go over documentation and trying to break this in sequence.

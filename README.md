@@ -1,6 +1,10 @@
 # dialogflow
 Implementing Dialogflow with Webex. Wish me luck.
 
+## OAuth2
+
+https://developers.google.com/calendar/api/guides/auth
+
 ## Proxy Settings
 https://cloud.google.com/sdk/docs/proxy-settings
 

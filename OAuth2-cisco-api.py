@@ -26,7 +26,7 @@ class BaseCiscoApiConsole:
 
     # just for testing, indicates, that the class has claimed new token
     __new_token_created__ = False
-
+    # __repr__ dunder method defines behavior when you pass an instance of a class to the repr()
     def __repr__(self):
         return {
             "cliend_id": self.client_id,
